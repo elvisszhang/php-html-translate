@@ -25,7 +25,7 @@ define("SEC_KEY",        "ImnRpIDLocuKFCCCMvS7");//替换为您的密钥
 function baidu_translate($query, $from, $to)
 {
     $args = array(
-        'q' => $query,
+        'q' => $query, //请控制在6000字节以内
         'appid' => APP_ID,
         'salt' => rand(10000,99999),
         'from' => $from,
