@@ -1,0 +1,26 @@
+{
+    "name": "elvisszhang/php-html-translate",
+    "description":  "tranlate html page into another language",
+    "keywords": ["html translate"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elviss Zhang",
+            "email": "364862701@qq.com",
+            "homepage": "https://github.com/elvisszhang/php-html-translate",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "sunra/php-simple-html-dom-parser": "^1.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Elviss\\HtmlTranslate\\": "src/"
+        }
+    }
+}
