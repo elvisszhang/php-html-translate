@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Elviss\\HtmlTranslate\\": "src/"
+            "Elviss\\PhpTranslate\\": "src/"
         }
     }
 }

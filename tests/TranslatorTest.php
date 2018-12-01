@@ -1,14 +1,14 @@
 <?php
-namespace Elviss\HtmlTranslate\Tests;
+namespace Elviss\PhpTranslate\Tests;
 use PHPUnit\Framework\TestCase;
-use Elviss\HtmlTranslate\Translator;
+use Elviss\PhpTranslate\Translator;
 
 final class TranslatorTest extends TestCase 
 {
-    public function testCannotBeShow(){
+    public function testHtml(){
         $tr = new Translator;
         
-        $this->expectOutputString($tr->translate('hello world'));
-		print $tr->translate('hello world');
+        //$this->expectOutputString($tr->transHtml('<a>你好世界</a>'));
+		print $tr->transHtml('<a>你好世界</a>');
     }
 }

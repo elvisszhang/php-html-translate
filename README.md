@@ -81,4 +81,7 @@ OK，一切搞定！试一下 composer install 来体验飞一般的速度吧！
 如果github中存在多个branch, 则在生成composer模块的时候会打包对应dev-分支名版本号, 如果不希望出现dev, 也就是看起来是正式版本, 需要在github打tag, 此时会以tag的名称作为版本号而不会加上dev
 
 # 参考文档
+
 编写自己的composer项目 https://www.jianshu.com/p/7c466c23a877
+百度翻译API文档 http://fanyi-api.baidu.com/api/trans/product/apidoc
+PHP Simple HTML DOM Parser 中文手册 http://microphp.us/plugins/public/microphp_res/simple_html_dom/manual.htm
