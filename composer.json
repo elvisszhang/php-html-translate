@@ -1,5 +1,5 @@
 {
-    "name": "elvisszhang/php-html-translate",
+    "name": "elvisszhang/php-translate",
     "description":  "tranlate html page into another language",
     "keywords": ["html translate"],
     "license": "MIT",
@@ -7,7 +7,7 @@
         {
             "name": "Elviss Zhang",
             "email": "364862701@qq.com",
-            "homepage": "https://github.com/elvisszhang/php-html-translate",
+            "homepage": "https://github.com/elvisszhang/",
             "role": "Developer"
         }
     ],
