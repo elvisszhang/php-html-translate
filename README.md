@@ -1,5 +1,5 @@
 # 项目介绍
-tranlate html page into another language
+tranlate text/html into another language
 
 # 文件说明
 
